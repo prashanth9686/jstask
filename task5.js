@@ -14,7 +14,7 @@ function employeeLogin() {
 
     console.log("Company :", companyName);
 
-     console.log(employeeId);
+     console.log(employeeId);//throws error as employeeId is block scoped and not accessible outside the if block
      console.log(password);
 }
 
@@ -29,8 +29,8 @@ console.log(balance);
 var balance = 45000;
 
     console.log(amount);
-    let amount = 25000;
-    console.log(cash);
+    let amount = 25000;//throws error as amount is block scoped and not accessible before initialization
+    console.log(cash);//throws error as cash is block scoped and not accessible before initialization
     const cash = 15000;
 
 // Task 3-Food Delivery App (Named Function)
