@@ -212,8 +212,8 @@ function employeeProfile() {
 
     }
     console.log(company);
-    console.log(designation);
-    console.log(salary);
+    console.log(designation);//throws error as designation is block scoped and not accessible outside the if block
+    console.log(salary);//throws error as salary is block scoped and not accessible outside the if block
 
 }
 employeeProfile();
