@@ -5,8 +5,8 @@ function employeeLogin() {
     if (true) {
 
         var companyName = "Stackly IT";
-        let employeeId = 1001;
-        const password = "Stackly1234";
+        let employeeId = 101;
+        const password = "Stackly123";
 
         console.log("Employee ID :", employeeId);
         console.log("Password :", password);
@@ -14,7 +14,7 @@ function employeeLogin() {
 
     console.log("Company :", companyName);
 
-     console.log(employeeId);//throws error as employeeId is block scoped and not accessible outside the if block
+     console.log(employeeId);
      console.log(password);
 }
 
@@ -29,8 +29,8 @@ console.log(balance);
 var balance = 45000;
 
     console.log(amount);
-    let amount = 25000;//throws error as amount is block scoped and not accessible before initialization
-    console.log(cash);//throws error as cash is block scoped and not accessible before initialization
+    let amount = 25000;
+    console.log(cash);
     const cash = 15000;
 
 // Task 3-Food Delivery App (Named Function)
@@ -212,8 +212,8 @@ function employeeProfile() {
 
     }
     console.log(company);
-    console.log(designation);//throws error as designation is block scoped and not accessible outside the if block
-    console.log(salary);//throws error as salary is block scoped and not accessible outside the if block
+    console.log(designation);
+    console.log(salary);
 
 }
 employeeProfile();
