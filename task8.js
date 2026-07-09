@@ -46,7 +46,3 @@ setInterval(() => {
     let data4 = new Date();
     console.log("Digital Clock: " , data4.toLocaleTimeString());
 }, 1000);
-
-setTimeout(() => {
-    clearInterval(data4);
-}, 5000);
