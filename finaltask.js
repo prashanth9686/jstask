@@ -1,3 +1,5 @@
+// Task 1: Product Search (Easy)
+
 let productList = document.getElementById("productList")
 let products = []
 let cart = []
