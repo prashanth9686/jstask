@@ -1,6 +1,6 @@
 // Task 1: Employee Age Calculator
 
-let data = new Date("2001-09-05");  
+let data = new Date("2001-09-05");
 
 let currentYear = new Date().getFullYear();
 let age = currentYear - data.getFullYear();
@@ -9,7 +9,7 @@ console.log("Employee Age: " , age , "Years");
 // Task 2: Online Appointment Scheduler
 
 let data1 = new Date();
-    
+
 data1.setFullYear(2027);
 data1.setMonth(11);
 data1.setDate(15);
@@ -22,8 +22,7 @@ console.log("Updated Appointment " , data1);
 
 let data2 = new Date();
 
-
-console.log("Current Time in India: " ,data2.toLocaleString("en-US", {timeZone: "Asia/kolkata"}));
+console.log("Current Time in India: " , data2.toLocaleString("en-US", {timeZone: "Asia/kolkata"}));
 
 console.log("Current Time in New York: " , data2.toLocaleString("en-US", {timeZone: "America/New_York"}));
 

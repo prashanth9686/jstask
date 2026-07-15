@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
     
 </head>
 <body>
+
     <!-- <script src="./script.js">
 
     </script>
@@ -24,7 +26,62 @@
     </script> -->
     <!-- <script src="./task7.js">
     </script> -->
-    <script src="./task8.js">
-    </script>
+    <!-- <script src="./task8.js">
+    </script> -->
+
+    <div class="container">
+
+    <h1>Find Your Needs </h1>
+    <!------------------------- Task 1 ------------------------->
+
+    <div class="searchbox">
+        <input type="text" id="search" placeholder="Search Products">
+        <button id="Button">Search </button>
+    </div>
+    <!--------------------------------Task 5 ------------------------------->
+    <div id="cartItems">
+    <div class="cart-title">
+        <div class="cart-left">
+            <span class="cart-icon">🛒</span>
+            <h3>Shopping Cart</h3>
+        </div>
+        <div id="cartCount">0</div>
+    </div>
+</div>
+    <!--------------Task 2 ------------------------->
+
+    <div class="categories">
+        <button class="category-btn" data-category="all">All</button>
+        <button class="category-btn" data-category="men's wear"> Men's wear</button>
+        <button class="category-btn" data-category="women's wear">Women's wear</button>
+        <button class="category-btn" data-category="kids wear">Kids wear</button>
+        <button class="category-btn" data-category="Beauty">Beauty</button>
+        <button class="category-btn" data-category="Accessories">Accessories</button>
+        <button class="category-btn" data-category="electronics">Electronics</button>
+        <button class="category-btn" data-category="Footwear">Footwear</button>
+        
+    </div>
+    <!--------------- Task 3 --------------->
+
+    <div class="sort-buttons">
+        <button id="lowToHigh">Low → High</button>
+        <button id="highToLow">High → Low</button>
+    </div>
+
+    <div id="productList" class="products"></div>
+</div>
+<!------------------------------Task 4 Modal -------------------------------->
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <span id="close">&times;</span>
+        <img id="modalImage" alt="Product Image">
+        <h2 id="modalTitle"></h2>
+        <p id="modalDescription"></p>
+        <h3 id="modalPrice"></h3>
+        <p id="modalCategory"></p>
+        <p id="modalRating"></p>
+    </div>
+</div>
+ <script src="./finaltask.js"></script>
 </body>
 </html>
